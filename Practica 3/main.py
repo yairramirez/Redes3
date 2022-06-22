@@ -73,18 +73,18 @@ class Agente:
             inicio=time()
             if not inicio < fin:
                 break
-        print("Fin de Hilo")
+        print("Fin")
         
 
     def notificar(self,imgpath):
 
-        mailsender = "dummycuenta3@gmail.com"
-        mailreceip = "dummycuenta3@gmail.com"
+        mailsender = "procesysp@gmail.com"
+        mailreceip = "yairr47@gmail.com"
         mailserver = 'smtp.gmail.com: 587'
-        password = 'Secreto123@'
+        password = 'cjdwfrewlwzzrcrv'
 
         msg = MIMEMultipart()
-        msg['Subject'] = "Notificacionde yair ramirez Edwin Bernardo Cruz villalba"
+        msg['Subject'] = "Se ha sobrepasado un umbral - Yair Ramirez"
         msg['From'] = mailsender
         msg['To'] = mailreceip
         fp = open(imgpath, 'rb')
@@ -203,7 +203,7 @@ class Agente:
                     "--start",str(tiempo_inicial),
                     "--end",str(tiempo_final),
                     "--vertical-label=porcentaje",
-                    "--title=CPU by yair ramirez",
+                    "--title=CPU",
                     '--lower-limit', '0',
                     '--upper-limit', '100',
         #obteniendo valores de la base de datos
@@ -247,7 +247,7 @@ class Agente:
                     "--start",str(tiempo_inicial),
                     "--end",str(tiempo_final),
                     "--vertical-label=GB",
-                    "--title=RAM by yair ramirez",
+                    "--title=RAM",
                     '--lower-limit', '0.0',
                     '--upper-limit', '2.0',
         #obteniendo valores de la base de datos
@@ -291,7 +291,7 @@ class Agente:
                     "--start",str(tiempo_inicial),
                     "--end",str(tiempo_final),
                     "--vertical-label=GB",
-                    "--title=DISCO by yair ramirez",
+                    "--title=DISCO",
                     '--lower-limit', '0',
                     '--upper-limit', '50',
         #obteniendo valores de la base de datos
