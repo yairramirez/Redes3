@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE rrd SYSTEM "https://oss.oetiker.ch/rrdtool/rrdtool.dtd">
+<!-- Round Robin Database Dump -->
+<rrd>
+	<version>0003</version>
+	<step>60</step> <!-- Seconds -->
+	<lastupdate>1655881932</lastupdate> <!-- 2022-06-22 02:12:12 CDT -->
+
+	<ds>
+		<name> inoctets </name>
+		<type> COUNTER </type>
+		<minimal_heartbeat>120</minimal_heartbeat>
+		<min>NaN</min>
+		<max>NaN</max>
+
+		<!-- PDP Status -->
+		<last_ds>0</last_ds>
+		<value>0.0000000000e+00</value>
+		<unknown_sec> 0 </unknown_sec>
+	</ds>
+
+	<ds>
+		<name> outoctets </name>
+		<type> COUNTER </type>
+		<minimal_heartbeat>120</minimal_heartbeat>
+		<min>NaN</min>
+		<max>NaN</max>
+
+		<!-- PDP Status -->
+		<last_ds>0</last_ds>
+		<value>0.0000000000e+00</value>
+		<unknown_sec> 0 </unknown_sec>
+	</ds>
+
+	<!-- Round Robin Archives -->
+	<rra>
+		<cf>AVERAGE</cf>
+		<pdp_per_row>6</pdp_per_row> <!-- 360 seconds -->
+
+		<params>
+		<xff>5.0000000000e-01</xff>
+		</params>
+		<cdp_prep>
+			<ds>
+			<primary_value>0.0000000000e+00</primary_value>
+			<secondary_value>0.0000000000e+00</secondary_value>
+			<value>0.0000000000e+00</value>
+			<unknown_datapoints>0</unknown_datapoints>
+			</ds>
+			<ds>
+			<primary_value>0.0000000000e+00</primary_value>
+			<secondary_value>0.0000000000e+00</secondary_value>
+			<value>0.0000000000e+00</value>
+			<unknown_datapoints>0</unknown_datapoints>
+			</ds>
+		</cdp_prep>
+		<database>
+			<!-- 2022-06-22 01:48:00 CDT / 1655880480 --> <row><v>NaN</v><v>NaN</v></row>
+			<!-- 2022-06-22 01:54:00 CDT / 1655880840 --> <row><v>NaN</v><v>NaN</v></row>
+			<!-- 2022-06-22 02:00:00 CDT / 1655881200 --> <row><v>NaN</v><v>NaN</v></row>
+			<!-- 2022-06-22 02:06:00 CDT / 1655881560 --> <row><v>NaN</v><v>NaN</v></row>
+			<!-- 2022-06-22 02:12:00 CDT / 1655881920 --> <row><v>0.0000000000e+00</v><v>0.0000000000e+00</v></row>
+		</database>
+	</rra>
+	<rra>
+		<cf>AVERAGE</cf>
+		<pdp_per_row>1</pdp_per_row> <!-- 60 seconds -->
+
+		<params>
+		<xff>5.0000000000e-01</xff>
+		</params>
+		<cdp_prep>
+			<ds>
+			<primary_value>0.0000000000e+00</primary_value>
+			<secondary_value>0.0000000000e+00</secondary_value>
+			<value>NaN</value>
+			<unknown_datapoints>0</unknown_datapoints>
+			</ds>
+			<ds>
+			<primary_value>0.0000000000e+00</primary_value>
+			<secondary_value>0.0000000000e+00</secondary_value>
+			<value>NaN</value>
+			<unknown_datapoints>0</unknown_datapoints>
+			</ds>
+		</cdp_prep>
+		<database>
+			<!-- 2022-06-22 01:53:00 CDT / 1655880780 --> <row><v>NaN</v><v>NaN</v></row>
+			<!-- 2022-06-22 01:54:00 CDT / 1655880840 --> <row><v>NaN</v><v>NaN</v></row>
+			<!-- 2022-06-22 01:55:00 CDT / 1655880900 --> <row><v>NaN</v><v>NaN</v></row>
+			<!-- 2022-06-22 01:56:00 CDT / 1655880960 --> <row><v>NaN</v><v>NaN</v></row>
+			<!-- 2022-06-22 01:57:00 CDT / 1655881020 --> <row><v>NaN</v><v>NaN</v></row>
+			<!-- 2022-06-22 01:58:00 CDT / 1655881080 --> <row><v>NaN</v><v>NaN</v></row>
+			<!-- 2022-06-22 01:59:00 CDT / 1655881140 --> <row><v>NaN</v><v>NaN</v></row>
+			<!-- 2022-06-22 02:00:00 CDT / 1655881200 --> <row><v>NaN</v><v>NaN</v></row>
+			<!-- 2022-06-22 02:01:00 CDT / 1655881260 --> <row><v>NaN</v><v>NaN</v></row>
+			<!-- 2022-06-22 02:02:00 CDT / 1655881320 --> <row><v>NaN</v><v>NaN</v></row>
+			<!-- 2022-06-22 02:03:00 CDT / 1655881380 --> <row><v>NaN</v><v>NaN</v></row>
+			<!-- 2022-06-22 02:04:00 CDT / 1655881440 --> <row><v>NaN</v><v>NaN</v></row>
+			<!-- 2022-06-22 02:05:00 CDT / 1655881500 --> <row><v>NaN</v><v>NaN</v></row>
+			<!-- 2022-06-22 02:06:00 CDT / 1655881560 --> <row><v>NaN</v><v>NaN</v></row>
+			<!-- 2022-06-22 02:07:00 CDT / 1655881620 --> <row><v>NaN</v><v>NaN</v></row>
+			<!-- 2022-06-22 02:08:00 CDT / 1655881680 --> <row><v>NaN</v><v>NaN</v></row>
+			<!-- 2022-06-22 02:09:00 CDT / 1655881740 --> <row><v>0.0000000000e+00</v><v>0.0000000000e+00</v></row>
+			<!-- 2022-06-22 02:10:00 CDT / 1655881800 --> <row><v>0.0000000000e+00</v><v>0.0000000000e+00</v></row>
+			<!-- 2022-06-22 02:11:00 CDT / 1655881860 --> <row><v>0.0000000000e+00</v><v>0.0000000000e+00</v></row>
+			<!-- 2022-06-22 02:12:00 CDT / 1655881920 --> <row><v>0.0000000000e+00</v><v>0.0000000000e+00</v></row>
+		</database>
+	</rra>
+</rrd>

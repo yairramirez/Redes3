@@ -1,0 +1,1 @@
+{"agentes": [{"ip": "192.168.0.21", "version": 0, "comunidad": "escom", "puerto": 161}, {"ip": "192.168.56.1", "version": 0, "comunidad": "ESCOM", "puerto": 80}, {"ip": "127.0.0.1", "version": 0, "comunidad": "escom", "puerto": 161}]}
